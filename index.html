@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Football Data Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Football Competitions</h1>
+  <div id="competitions"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $.getJSON('http://api.football-data.org/v4/competitions', function(data) {
+        var competitions = data.competitions;
+        var html = '';
+        competitions.forEach(function(competition) {
+          html += '<div class="competition">';
+          html += '<h2>' + competition.name + '</h2>';
+          html += '<p>ID: ' + competition.id + '</p>';
+          html += '</div>';
+        });
+        $('#competitions').html(html);
+      });
+    });
+  </script>
+</body>
+</html>

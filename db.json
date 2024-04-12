@@ -1,0 +1,51 @@
+{
+    "competitions": [
+      {
+        "id": 2001,
+        "name": "English Premier League",
+        "code": "PL",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PL.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+          "id": 4,
+          "startDate": "2017-08-11T19:00:00Z",
+          "endDate": "2018-05-20T16:45:00Z",
+          "currentMatchday": 34
+        },
+        "seasons": [
+          {
+            "id": 4,
+            "startDate": "2017-08-11T19:00:00Z",
+            "endDate": "2018-05-20T16:45:00Z",
+            "currentMatchday": 34
+          }
+        ],
+        "lastUpdated": "2018-06-05T00:17:50Z"
+      },
+      {
+        "id": 2002,
+        "name": "Spanish Primera Division",
+        "code": "PD",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PD.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+          "id": 1,
+          "startDate": "2017-08-18T18:45:00Z",
+          "endDate": "2018-05-20T16:45:00Z",
+          "currentMatchday": 38
+        },
+        "seasons": [
+          {
+            "id": 1,
+            "startDate": "2017-08-18T18:45:00Z",
+            "endDate": "2018-05-20T16:45:00Z",
+            "currentMatchday": 38
+          }
+        ],
+        "lastUpdated": "2018-06-05T00:17:50Z"
+      }
+      
+    ]
+  }
